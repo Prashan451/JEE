@@ -1,4 +1,4 @@
-import logging
+ import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import datetime
@@ -7,7 +7,7 @@ import time
 import threading
 
 # --- BOT TOKEN ---
-BOT_TOKEN = "8220626774:AAGmSjIccy91W0uj-AwJB0bI4Z1cD82539c"  # Replace with your token
+BOT_TOKEN = " # Replace with your token
 
 # --- Logging ---
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
